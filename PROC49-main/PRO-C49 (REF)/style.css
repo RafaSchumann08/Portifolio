@@ -1,0 +1,38 @@
+h1 {
+    color: indigo;
+    padding: 30px;
+    font-size: 50px;
+  }
+
+  h2 {
+    color: blue;
+  }
+
+  h3 {
+    color: crimson;
+  }
+  *{
+    border:solid;
+  }
+body{
+/*background-color: rgb(128,128, 128);*/
+background-color: #1E90FF;
+}
+  .Cabeçario{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.Jogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Rodapé{
+    display: flex;
+    justify-content: flex-end;
+}
+h2,p{
+    text-align: center;
+}
